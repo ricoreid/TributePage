@@ -1,0 +1,115 @@
+@CHARSET "ISO-8859-1";
+body {
+	text-align : center;
+	padding : 20px 120px 20px 120px;
+    background-image: url(files/bg-main);
+    background-attachment: fixed;
+}
+
+@font-face {
+  
+    font-family : fonttest;
+    src: url(fonts/norton.TTF);
+}
+
+@font-face {
+  
+    font-family : headerfont;
+    src: url(fonts/disco3.ttf);
+}
+
+@font-face {
+  
+    font-family : act;
+    src: url(fonts/act.ttf);
+}
+
+@font-face {
+  
+    font-family : architex;
+    src: url(fonts/architex.ttf);
+}
+
+#mainContainer {
+    width: auto;
+    box-shadow: 5px 5px 10px 10px #eff2f7;
+    padding: 40px 10px 10px 10px;
+    background-color: antiquewhite;
+}
+
+#mainHeading {
+    
+    font-family: headerfont;
+}
+#headerImg {
+	width : inherit;
+    height: 400px;
+    margin: 5px;
+}
+
+.p {
+	text-align : justify;
+	line-height : 1.5;
+	padding : 0px 0px 0px 40px;
+    font-family: fonttest;
+    font-size: 24px;
+}
+
+.row-jazz-legends {
+    
+    display: block;
+    clear: both;
+	align-self: center;
+	padding : 10px 10px 10px 0px;
+    width: inherit;
+    padding-left: 200px;
+}
+
+.photo {
+	width : 200px;
+	height : 200px;
+}
+
+.picture-container {
+	display : inline-block;
+	padding : 5px;
+	margin : 5px;
+	font-size : 12px;
+    float: left;
+    
+}
+
+.artist-info {
+    
+    float: right;
+    display: none;
+    padding-left: 5px;
+}
+
+.rdHeading {
+    
+    font-family: act;
+    font-weight: bold;
+    font-size: 44px;
+    text-decoration: underline;
+}
+
+.row-container {
+    
+    display: block;
+    text-align: center;
+}
+
+.fntArchitex {
+    
+    font-family: architex;
+    font-weight: 800;
+    font-size: 2em;
+    text-align: left;
+}
+
+.about-artist {
+    
+    font-family: architex;
+    font-weight: bolder;
+}
